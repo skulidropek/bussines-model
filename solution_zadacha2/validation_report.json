@@ -1,0 +1,72 @@
+{
+  "workbook": "solution_zadacha2/Задача для ИИ 2 - решение.xlsx",
+  "sheet": "Условие",
+  "requested_sheet": "Условие",
+  "used_sheet_fallback": false,
+  "available_sheets": [
+    "Условие"
+  ],
+  "passed": true,
+  "checks": [
+    {
+      "name": "formula_ref_errors",
+      "passed": true,
+      "detail": "OK"
+    },
+    {
+      "name": "balance_identity",
+      "passed": true,
+      "detail": "OK"
+    },
+    {
+      "name": "cash_bridge",
+      "passed": true,
+      "detail": "OK"
+    },
+    {
+      "name": "dividend_lock_status",
+      "passed": true,
+      "detail": "C86: actual='OK' expected='OK'"
+    },
+    {
+      "name": "final_metrics_present",
+      "passed": true,
+      "detail": "OK"
+    },
+    {
+      "name": "core_inputs_present",
+      "passed": true,
+      "detail": "OK"
+    },
+    {
+      "name": "sensitivity_price_present",
+      "passed": true,
+      "detail": "OK"
+    },
+    {
+      "name": "sensitivity_interval_present",
+      "passed": true,
+      "detail": "OK"
+    },
+    {
+      "name": "tornado_tables_present",
+      "passed": true,
+      "detail": "OK"
+    },
+    {
+      "name": "formula_current_cost",
+      "passed": true,
+      "detail": "C38: formula='=C30*C28*C29*C32' needle='C30*C28*C29*C32'"
+    },
+    {
+      "name": "formula_annualization",
+      "passed": true,
+      "detail": "C42: formula='=C41*12' needle='C41*12'"
+    },
+    {
+      "name": "scenario_compare_present",
+      "passed": true,
+      "detail": "OK"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "weights": {
+    "expected_value": 0.8,
+    "worst_case": 0.1,
+    "minimax_regret": 0.1
+  },
+  "hard_constraints": {
+    "min_npv_fcff": -1,
+    "min_npv_fcfe": -1,
+    "min_liquidity": 0,
+    "max_payback_year": 10
+  }
+}

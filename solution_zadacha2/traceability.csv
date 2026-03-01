@@ -1,0 +1,19 @@
+req_id,bucket,requirement_text,status,model_location,formula_or_logic,validation_check,notes
+REQ-001,must_calculate,Рассчитать DPP (discounted payback period).,mapped,Условие!B50:C50,DPP рассчитан на основе дисконтированных потоков t1..tN,validation_report.json: final_metrics_present,
+REQ-002,must_calculate,Рассчитать IRR проекта.,mapped,Условие!B49:C49,IRR(CF0:CF5) с обработкой N/A для sensitivity,validation_report.json: final_metrics_present,
+REQ-003,must_calculate,Провести sensitivity-анализ по NPV и IRR для цены масла.,mapped,Условие!B90:F97,One-way sensitivity по price_project при fixed freq_project,validation_report.json: sensitivity_price_present,
+REQ-004,must_calculate,Провести sensitivity-анализ по NPV и IRR для интервала замены (раз в месяц).,mapped,Условие!B100:F107,One-way sensitivity по freq_project при fixed price_project,validation_report.json: sensitivity_interval_present,
+REQ-005,must_calculate,Подготовить tornado-ранжирование факторов чувствительности.,mapped,Условие!B112:I121 + charts K112 и K126,Ранжирование по абсолютному swing отдельно для NPV и IRR,validation_report.json: tornado_tables_present,
+REQ-006,include,Учесть текущие параметры: 3 замены/мес, 70 единиц, 200 л, 150 руб/л.,mapped,Условие!B28:C32,Используются как baseline драйверы расходов,validation_report.json: core_inputs_present,
+REQ-007,include,Учесть ожидаемые параметры: 2 замены/мес, 200 руб/л.,mapped,Условие!B31:C33,Используются как project драйверы расходов,validation_report.json: core_inputs_present,
+REQ-008,include,Учесть содержание лаборатории: 150 тыс. руб/мес.,mapped,Условие!B34:C34,Добавлено в проектные ежемесячные расходы,validation_report.json: core_inputs_present,
+REQ-009,include,Учесть цену лаборатории (CAPEX): 15 млн руб с НДС.,mapped,Условие!B35:C35 и D43,CF0 = -CAPEX_without_VAT в t0 (12.5 млн),validation_report.json: core_inputs_present,
+REQ-010,must_build,Построить финансовую модель на основе исходных данных кейса.,mapped,Условие!B23:I86,Блоки Inputs/Operations/Valuation/Controls + mapping block,validation_report.json: formula_ref_errors,
+REQ-011,must_build,Подготовить 1 слайд с расчетом и ключевыми данными для решения о покупке лаборатории.,mapped,solution_zadacha2/one-slide.md,One-page executive summary с метриками и выводом,manual_review,
+REQ-012,open_assumptions,Горизонт моделирования принят 5 лет.,mapped,Условие!B27:C27,Assumption зафиксирован в модели и отчете,assumptions.md,
+REQ-013,open_assumptions,Ставка дисконтирования принята 15% годовых.,mapped,Условие!B26:C26,Используется в NPV и DPP,assumptions.md,
+REQ-014,open_assumptions,Принята годовая дискретизация денежных потоков при переводе месячных входов в годовые.,mapped,Условие!B42:C42,Annualized saving = monthly saving * 12,validation_report.json: formula_annualization
+
+REQ-015,open_assumptions,НДС не учитывается в модели; CAPEX принят без НДС: 12.5 млн руб.,mapped,Условие!B35:C35,VAT removed: CAPEX=15/1.2,assumptions.md,
+REQ-016,must_calculate,Построить сравнение двух сценариев с расчетом delta по NPV/IRR/DPP.,mapped,Условие!B56:E65,Сравнение Scenario 1/2 и delta столбец,validation_report.json: scenario_compare_present,
+REQ-017,open_assumptions,Сценарий 2 задан как консервативный: price +5%, interval +0.1 от базы.,mapped,Условие!B68:C69,Scenario 2 drivers from uplift inputs,assumptions.md,
