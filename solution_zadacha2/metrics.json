@@ -1,0 +1,16 @@
+{
+  "base_case": {
+    "npv": 7124223.646875257,
+    "irr": 0.3370160393828824,
+    "dpp_years": 2.9840340909090903,
+    "annual_savings": 6600000.0
+  },
+  "break_even": {
+    "price_at_freq_2": 219.64285714285714,
+    "freq_at_price_200": 2.1964285714285716
+  },
+  "decision": {
+    "recommended": "BUY_LAB",
+    "score_margin_vs_second": 0.8
+  }
+}

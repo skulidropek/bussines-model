@@ -1,0 +1,25 @@
+{
+  "sheet": "Условие",
+  "columns": ["D", "E", "F", "G", "H", "I"],
+  "year_row": 71,
+  "base_year": 0,
+  "discount_shift": 0,
+  "interest_after_tax": false,
+  "tax_rate": 0.0,
+  "tolerance_pct": 0.1,
+  "rows": {
+    "ebit": 72,
+    "tax": 73,
+    "delta_ar": 74,
+    "delta_ap": 75,
+    "capex": 76,
+    "interest": 77,
+    "debt_draw": 78,
+    "debt_repay": 79,
+    "dividends": 80,
+    "equity_in": 81,
+    "discount_rate": 82
+  },
+  "model_npv_fcff_cell": "C48",
+  "model_npv_fcfe_cell": "C48"
+}

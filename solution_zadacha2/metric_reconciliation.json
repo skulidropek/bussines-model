@@ -1,0 +1,64 @@
+{
+  "workbook": "solution_zadacha2/Задача для ИИ 2 - решение.xlsx",
+  "sheet": "Условие",
+  "requested_sheet": "Условие",
+  "used_sheet_fallback": false,
+  "available_sheets": [
+    "Условие"
+  ],
+  "years": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "assumptions": {
+    "base_year": 0,
+    "discount_shift": 0,
+    "interest_after_tax": false,
+    "tax_rate": 0.0,
+    "tolerance_pct": 0.1
+  },
+  "series": {
+    "fcff": [
+      -15000000.0,
+      6600000.0,
+      6600000.0,
+      6600000.0,
+      6600000.0,
+      6600000.0
+    ],
+    "fcfe_distribution": [
+      -15000000.0,
+      6600000.0,
+      6600000.0,
+      6600000.0,
+      6600000.0,
+      6600000.0
+    ],
+    "fcfe_formula": [
+      -15000000.0,
+      6600000.0,
+      6600000.0,
+      6600000.0,
+      6600000.0,
+      6600000.0
+    ]
+  },
+  "npv": {
+    "recalc_fcff": 7124223.646875257,
+    "recalc_fcfe_distribution": 7124223.646875257,
+    "recalc_fcfe_formula": 7124223.646875257,
+    "model_fcff": 7124223.646875257,
+    "model_fcfe": 7124223.646875257,
+    "diff_fcff_pct": 0.0,
+    "diff_fcfe_pct": 0.0
+  },
+  "pass": {
+    "fcff": true,
+    "fcfe": true,
+    "overall": true
+  }
+}
