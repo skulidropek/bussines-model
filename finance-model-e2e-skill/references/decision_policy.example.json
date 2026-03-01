@@ -1,0 +1,14 @@
+{
+  "weights": {
+    "expected_value": 0.5,
+    "worst_case": 0.3,
+    "minimax_regret": 0.2
+  },
+  "hard_constraints": {
+    "min_npv_fcff": 0,
+    "min_npv_fcfe": 0,
+    "min_dscr": 1.2,
+    "min_liquidity": 100000,
+    "max_payback_year": 2029
+  }
+}

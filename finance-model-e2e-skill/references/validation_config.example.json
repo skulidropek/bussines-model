@@ -1,0 +1,28 @@
+{
+  "sheet": "Sheet1",
+  "checks": [
+    {
+      "type": "equals_zero",
+      "name": "balance_identity",
+      "cells": ["D96", "E96", "F96", "G96", "H96", "I96", "J96", "K96", "L96"],
+      "tolerance": 1
+    },
+    {
+      "type": "equals_zero",
+      "name": "cash_bridge",
+      "cells": ["D107", "E107", "F107", "G107", "H107", "I107", "J107", "K107", "L107"],
+      "tolerance": 1
+    },
+    {
+      "type": "text_equals",
+      "name": "dividend_lock_status",
+      "cell": "C124",
+      "expected": "OK"
+    },
+    {
+      "type": "not_blank",
+      "name": "final_metrics_present",
+      "cells": ["C116", "C118", "C132"]
+    }
+  ]
+}
