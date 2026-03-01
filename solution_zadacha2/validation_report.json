@@ -62,6 +62,11 @@
       "name": "formula_annualization",
       "passed": true,
       "detail": "C42: formula='=C41*12' needle='C41*12'"
+    },
+    {
+      "name": "scenario_compare_present",
+      "passed": true,
+      "detail": "OK"
     }
   ]
 }

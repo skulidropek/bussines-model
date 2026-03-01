@@ -23,7 +23,7 @@
   },
   "series": {
     "fcff": [
-      -15000000.0,
+      -12500000.0,
       6600000.0,
       6600000.0,
       6600000.0,
@@ -31,7 +31,7 @@
       6600000.0
     ],
     "fcfe_distribution": [
-      -15000000.0,
+      -12500000.0,
       6600000.0,
       6600000.0,
       6600000.0,
@@ -39,7 +39,7 @@
       6600000.0
     ],
     "fcfe_formula": [
-      -15000000.0,
+      -12500000.0,
       6600000.0,
       6600000.0,
       6600000.0,
@@ -48,13 +48,13 @@
     ]
   },
   "npv": {
-    "recalc_fcff": 7124223.646875257,
-    "recalc_fcfe_distribution": 7124223.646875257,
-    "recalc_fcfe_formula": 7124223.646875257,
-    "model_fcff": 7124223.646875257,
-    "model_fcfe": 7124223.646875257,
-    "diff_fcff_pct": 0.0,
-    "diff_fcfe_pct": 0.0
+    "recalc_fcff": 9624223.646875257,
+    "recalc_fcfe_distribution": 9624223.646875257,
+    "recalc_fcfe_formula": 9624223.646875257,
+    "model_fcff": null,
+    "model_fcfe": null,
+    "diff_fcff_pct": null,
+    "diff_fcfe_pct": null
   },
   "pass": {
     "fcff": true,

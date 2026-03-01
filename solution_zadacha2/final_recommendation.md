@@ -4,17 +4,17 @@
 
 **BUY_LAB**
 
+## Scenario comparison (formula-driven)
+
+- `Scenario 1 (Base)`: NPV **9,624,223.65 RUB**, IRR **44.39%**, DPP **2.41 years** -> **ПРИНИМАТЬ**
+- `Scenario 2 (Conservative)`: NPV **-1,639,017.48 RUB**, IRR **9.32%**, DPP **6.20 years** -> **ОТКЛОНИТЬ**
+- `Delta (2-1)`: NPV **-11,263,241.13 RUB**, IRR **-35.07 p.p.**, DPP **+3.79 years**
+
 ## Confidence
 
 - Robust score margin vs runner-up: **0.80**
 - Winner score: **0.90**
 - Runner-up score: **0.10**
-
-## Base-case economics
-
-- `NPV (15%, 5 years)`: **7,124,223.65 RUB**
-- `IRR`: **33.70%**
-- `DPP`: **2.98 years**
 
 ## Quality gates
 
@@ -25,6 +25,5 @@
 
 ## Open risks
 
-- Downside scenario (higher oil price + weaker interval effect) yields negative NPV.
-- Practical execution risk is concentrated in achieving target replacement interval and procurement price discipline.
-- Model excludes taxes/inflation/depreciation due missing TZ data; this should be revisited if investment memo requires accounting-grade detail.
+- Conservative scenario turns economics negative due to simultaneous deterioration in oil price and replacement interval.
+- Execution risk remains concentrated in operational discipline of interval management and procurement price control.

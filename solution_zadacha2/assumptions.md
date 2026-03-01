@@ -4,11 +4,16 @@
 - `Horizon`: 5 years (`t0..t5`).
 - `Timing`: CAPEX at `t0`; operating effect in annual periods `t1..t5`.
 - `Cash-flow granularity`: source inputs are monthly, valuation is annual (`monthly * 12`).
+- `VAT handling`: VAT is **not modeled**; CAPEX is converted to ex-VAT value (`15,000,000 / 1.2 = 12,500,000 RUB`).
 - `Taxes`: not modeled (not provided in TZ).
 - `Inflation/indexation`: not modeled (not provided in TZ).
 - `Depreciation/salvage value`: not modeled (not provided in TZ).
-- `Financing structure`: unlevered project economics only.
-- `Decision rule`: accept if `NPV > 0` and `IRR > discount rate`.
+
+## Scenario settings
+
+- `Scenario 1 (Base)`: `price_project = 200`, `freq_project = 2.0`.
+- `Scenario 2 (Conservative)`: `price_project = 200 * (1 + 5%) = 210`, `freq_project = 2.0 + 0.1 = 2.1`.
+- Scenario comparison is built in-sheet with formulas and delta columns.
 
 ## Sensitivity design
 

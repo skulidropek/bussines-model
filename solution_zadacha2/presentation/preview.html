@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Презентация — Задача для ИИ 2</title>
+  <link rel="stylesheet" href="./preview.css" />
+</head>
+<body>
+  <main class="deck">
+    <section class="slide">
+      <h1>Покупка лаборатории анализа масла</h1>
+      <p class="decision">РЕШЕНИЕ: ПРИНИМАТЬ</p>
+      <div class="cards">
+        <article>
+          <h3>Сценарий 1 (Base)</h3>
+          <p>9 624 224 ₽</p>
+          <small>IRR 44.39% | DPP 2.41 | ПРИНИМАТЬ</small>
+        </article>
+        <article>
+          <h3>Сценарий 2 (Conservative)</h3>
+          <p>-1 639 017 ₽</p>
+          <small>IRR 9.32% | DPP 6.20 | ОТКЛОНИТЬ</small>
+        </article>
+      </div>
+      <p class="note">Δ(2-1): NPV -11 263 241 ₽ | IRR -35.07% | DPP 3.79 года</p>
+      <p class="note">Break-even price: 219.64 ₽/л | Break-even interval: 2.196 раз/мес</p>
+    </section>
+
+    <section class="slide">
+      <h2>Sensitivity: цена масла (фикс. интервал 2.0)</h2>
+      <table>
+        <thead><tr><th>Цена, ₽/л</th><th>NPV, ₽</th><th>IRR</th></tr></thead>
+        <tbody>
+          <tr><td>180</td><td>32 150 706</td><td>103.51%</td></tr><tr><td>190</td><td>20 887 465</td><td>74.80%</td></tr><tr><td>200</td><td>9 624 224</td><td>44.39%</td></tr><tr><td>210</td><td>-1 639 017</td><td>9.32%</td></tr><tr><td>215</td><td>-7 270 638</td><td>-13.91%</td></tr><tr><td>220</td><td>-12 902 259</td><td>N/A</td></tr>
+        </tbody>
+      </table>
+      <h2>Sensitivity: интервал (фикс. цена 200 ₽/л)</h2>
+      <table>
+        <thead><tr><th>Интервал</th><th>NPV, ₽</th><th>IRR</th></tr></thead>
+        <tbody>
+          <tr><td>1.75</td><td>37 782 326</td><td>117.54%</td></tr><tr><td>1.9</td><td>20 887 465</td><td>74.80%</td></tr><tr><td>2</td><td>9 624 224</td><td>44.39%</td></tr><tr><td>2.1</td><td>-1 639 017</td><td>9.32%</td></tr><tr><td>2.15</td><td>-7 270 638</td><td>-13.91%</td></tr><tr><td>2.25</td><td>-18 533 879</td><td>N/A</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>

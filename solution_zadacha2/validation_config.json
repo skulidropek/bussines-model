@@ -4,13 +4,27 @@
     {
       "type": "equals_zero",
       "name": "balance_identity",
-      "cells": ["D84", "E84", "F84", "G84", "H84", "I84"],
+      "cells": [
+        "D84",
+        "E84",
+        "F84",
+        "G84",
+        "H84",
+        "I84"
+      ],
       "tolerance": 0.1
     },
     {
       "type": "equals_zero",
       "name": "cash_bridge",
-      "cells": ["D85", "E85", "F85", "G85", "H85", "I85"],
+      "cells": [
+        "D85",
+        "E85",
+        "F85",
+        "G85",
+        "H85",
+        "I85"
+      ],
       "tolerance": 0.1
     },
     {
@@ -22,27 +36,60 @@
     {
       "type": "not_blank",
       "name": "final_metrics_present",
-      "cells": ["C48", "C49", "C50", "C51"]
+      "cells": [
+        "C48",
+        "C49",
+        "C50",
+        "C51"
+      ]
     },
     {
       "type": "not_blank",
       "name": "core_inputs_present",
-      "cells": ["C28", "C29", "C30", "C31", "C32", "C33", "C34", "C35"]
+      "cells": [
+        "C28",
+        "C29",
+        "C30",
+        "C31",
+        "C32",
+        "C33",
+        "C34",
+        "C35"
+      ]
     },
     {
       "type": "not_blank",
       "name": "sensitivity_price_present",
-      "cells": ["D92", "D93", "D94", "D95", "D96", "D97"]
+      "cells": [
+        "D92",
+        "D93",
+        "D94",
+        "D95",
+        "D96",
+        "D97"
+      ]
     },
     {
       "type": "not_blank",
       "name": "sensitivity_interval_present",
-      "cells": ["D102", "D103", "D104", "D105", "D106", "D107"]
+      "cells": [
+        "D102",
+        "D103",
+        "D104",
+        "D105",
+        "D106",
+        "D107"
+      ]
     },
     {
       "type": "not_blank",
       "name": "tornado_tables_present",
-      "cells": ["I114", "I115", "I120", "I121"]
+      "cells": [
+        "I114",
+        "I115",
+        "I120",
+        "I121"
+      ]
     },
     {
       "type": "formula_contains",
@@ -55,6 +102,23 @@
       "name": "formula_annualization",
       "cell": "C42",
       "contains": "C41*12"
+    },
+    {
+      "type": "not_blank",
+      "name": "scenario_compare_present",
+      "cells": [
+        "C62",
+        "D62",
+        "C63",
+        "D63",
+        "C64",
+        "D64",
+        "C65",
+        "D65",
+        "E62",
+        "E63",
+        "E64"
+      ]
     }
   ]
 }
