@@ -1,0 +1,54 @@
+{
+  "states": [
+    { "name": "downside", "probability": 0.25 },
+    { "name": "base", "probability": 0.5 },
+    { "name": "upside", "probability": 0.25 }
+  ],
+  "alternatives": [
+    {
+      "name": "Option_A",
+      "payoffs": {
+        "downside": 3200000,
+        "base": 7800000,
+        "upside": 10800000
+      },
+      "metrics": {
+        "npv_fcff": 7800000,
+        "npv_fcfe": 6200000,
+        "dscr_min": 1.35,
+        "liquidity_min": 250000,
+        "debt_free_year": 2028
+      }
+    },
+    {
+      "name": "Option_B",
+      "payoffs": {
+        "downside": 2500000,
+        "base": 8100000,
+        "upside": 12000000
+      },
+      "metrics": {
+        "npv_fcff": 8100000,
+        "npv_fcfe": 6000000,
+        "dscr_min": 1.22,
+        "liquidity_min": 150000,
+        "debt_free_year": 2029
+      }
+    },
+    {
+      "name": "Option_C",
+      "payoffs": {
+        "downside": 4100000,
+        "base": 7400000,
+        "upside": 9300000
+      },
+      "metrics": {
+        "npv_fcff": 7400000,
+        "npv_fcfe": 6100000,
+        "dscr_min": 1.5,
+        "liquidity_min": 300000,
+        "debt_free_year": 2027
+      }
+    }
+  ]
+}

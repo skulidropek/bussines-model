@@ -1,0 +1,5 @@
+display_name: Finance Model E2E
+short_description: Build and validate finance models from TZ with hard quality gates.
+default_prompt: >-
+  Use this skill to convert TZ into a traceable financial model, lock assumptions,
+  run independent FCFF/FCFE recalculation, and pass validation gates before final recommendation.

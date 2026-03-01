@@ -1,0 +1,25 @@
+{
+  "sheet": "Sheet1",
+  "columns": ["D", "E", "F", "G", "H", "I", "J", "K", "L"],
+  "year_row": 5,
+  "base_year": 2022,
+  "discount_shift": 1,
+  "interest_after_tax": false,
+  "tax_rate": 0.2,
+  "tolerance_pct": 0.1,
+  "rows": {
+    "ebit": 55,
+    "tax": 56,
+    "delta_ar": 59,
+    "delta_ap": 60,
+    "capex": 63,
+    "interest": 72,
+    "debt_draw": 73,
+    "debt_repay": 74,
+    "dividends": 76,
+    "equity_in": 67,
+    "discount_rate": 12
+  },
+  "model_npv_fcff_cell": "C116",
+  "model_npv_fcfe_cell": "C118"
+}
